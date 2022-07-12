@@ -1,0 +1,852 @@
+
+/* CSS HEADER INDEX */
+
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.logo{
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.boton{
+    color: grey;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.navegacion{
+    list-style: none;
+    display: flex;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+nav ul li{
+    transition: all 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width: 425px){
+    header{
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width:460px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+/* CSS MAIN INDEX */
+
+body{
+    background-color: #082032;
+    font-size: 20px
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding:100px 0px;
+}
+
+.lista-principal{
+    color: white;
+    list-style: none;
+}
+
+@media (max-width: 1220px){
+    .principal{
+        flex-direction: column;
+    }
+
+    .principal{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px){
+    .portada img{
+        height: 250px;
+        width: 500px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px){
+
+    .principal{
+        flex-direction: column;
+    }
+
+    .principal{
+        display: flex;
+        align-items: center;
+    }
+
+    .portada img{
+        height: 150px;
+        width: 300px;
+    }
+}
+
+/* CSS FOOTER INDEX */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer{
+    color: white;
+}
+
+.footer-ul-container{
+    color: white;
+}
+
+.ul-footer{
+    list-style: none;
+}
+
+@media (max-width: 460px){
+    .container{
+        flex-direction: column;
+    }
+
+    .ul-footer{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container{
+        flex-direction: column;
+    }
+
+    .ul-footer{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* CSS HEADER EMPRESA */
+
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.logo-empresa{
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo-empresa:hover{
+    transform: scale(1.1);
+}
+
+.boton-empresa{
+    color: grey;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.boton-empresa:hover{
+    transform: scale(1.1);
+}
+
+.navegacion-empresa{
+    list-style: none;
+    display: flex;
+}
+
+.navegacion-empresa li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+nav ul li{
+    transition: all 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width:460px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+/* CSS MAIN EMPRESA */
+
+.grilla-empresa{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 50px);
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.grilla__item2{
+    background-color: #082032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-empresa{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.grilla-empresa button{
+    color: #1b3039;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* CSS FOOTER EMPRESA */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-empresa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-empresa{
+    color: white;
+}
+
+.footer-ul-container-empresa{
+    color: white;
+}
+
+.ul-footer-empresa{
+    list-style: none;
+}
+
+@media (max-width: 460px){
+    .container-empresa{
+        flex-direction: column;
+    }
+
+    .ul-footer-empresa{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-empresa{
+        flex-direction: column;
+    }
+
+    .ul-footer-empresa{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* CSS HEADER GALERIA */
+
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.logo-galeria{
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo-galeria:hover{
+    transform: scale(1.1);
+}
+
+.boton-galeria{
+    color: grey;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.boton-galeria:hover{
+    transform: scale(1.1);
+}
+
+.navegacion-galeria{
+    list-style: none;
+    display: flex;
+}
+
+.navegacion-galeria li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+nav ul li{
+    transition: all 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width:460px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:1000px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+/* CSS MAIN GALERIA */
+
+.grid-container{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    gap: 50px;
+    justify-content: center;
+    /* height: 100vh; */
+    padding: 40px;
+}
+
+.grilla__item{
+    background-color: brown;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+    .grid-container{
+        grid-template-columns:repeat(2, 200px);
+        grid-template-columns:repeat(2, 200px);
+    }
+}
+
+@media (max-width: 490px){
+    .grid-container{
+        grid-template-columns:repeat(1, 200px);
+        grid-template-columns:repeat(1, 200px);
+    }
+}
+
+/* CSS FOOTER GALERIA */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-galeria{
+    color: white;
+}
+
+.footer-ul-galeria{
+    color: white;
+}
+
+.ul-footer-galeria{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-galeria{
+        flex-direction: column;
+    }
+
+    .ul-footer-galeria{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1000px){
+    .container-galeria{
+        flex-direction: column;
+    }
+
+    .ul-footer-galeria{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* CSS HEADER NOVEDADES */
+
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.logo-novedades{
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo-novedades:hover{
+    transform: scale(1.1);
+}
+
+.boton-novedades{
+    color: grey;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.boton-novedades:hover{
+    transform: scale(1.1);
+}
+
+.navegacion-novedades{
+    list-style: none;
+    display: flex;
+}
+
+.navegacion-novedades li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+nav ul li{
+    transition: all 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width:460px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+/* CSS MAIN NOVEDADES */
+
+.noticias p{
+    text-align: left;
+}
+
+.noticias img{
+    transition: all 0.3s;
+}
+
+.noticias img:hover{
+    transform: rotate(10deg);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+/* CSS MANTENIMIENTO DE MICROPIPETAS */
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+p{
+    color: white;
+    text-align:center; 
+}
+
+.imagenes-noticias img{
+    margin: auto;
+}
+
+.atencion{
+    color: red;
+}
+
+.lista-noticias ol{
+    color: white;
+}
+
+.lista-noticias2 li{
+    color: white;
+}
+
+/* CSS FOOTER NOVEDADES */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-novedades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-novedades{
+    color: white;
+}
+
+.footer-ul-container-novedades{
+    color: white;
+}
+
+.ul-footer-novedades{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-novedades{
+        flex-direction: column;
+    }
+
+    .ul-footer-novedades{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-novedades{
+        flex-direction: column;
+    }
+
+    .ul-footer-novedades{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* CSS HEADER CONTACTO */
+
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.logo-contacto{
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo-contacto:hover{
+    transform: scale(1.1);
+}
+
+.boton-contacto{
+    color: grey;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.boton-contacto:hover{
+    transform: scale(1.1);
+}
+
+.navegacion-contacto{
+    list-style: none;
+    display: flex;
+}
+
+.navegacion-contacto li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+nav ul li{
+    transition: all 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width:460px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav li{
+        padding: 10px 0px;
+    }
+}
+
+/* CSS MAIN CONTACTO */
+
+.h2-contacto{
+    text-align: center;
+    margin: 50px;
+    color:#eceff1;
+}
+
+.form-container-contacto{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border: solid 1px black;
+}
+
+.form-container-contacto h2{
+    color: #eceff1;
+    text-align: center;
+}
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* CSS FOOTER CONTACTO */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-contacto{
+    color: white;
+}
+
+.footer-ul-container-contacto{
+    color: white;
+}
+
+.ul-footer-contacto{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-contacto{
+        flex-direction: column;
+    }
+
+    .ul-footer-contacto{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-contacto{
+        flex-direction: column;
+    }
+
+    .ul-footer-contacto{
+        justify-content: center;
+        align-items: center;
+    }
+}
