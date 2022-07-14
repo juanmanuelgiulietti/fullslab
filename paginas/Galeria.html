@@ -5,41 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FULL SLAB | Galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
 </head>
     <body>
         <header>
-            <a href="../index.html"><h2 class="logo-galeria">FULL SLAB</h2></a>
-            <nav>
-                <ul class="navegacion-galeria">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./empresa.html">Empresa</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="./novedades.html">Novedades</a></li>
-                </ul>
-            </nav>
-            <a href="./contacto.html"><button class="boton-galeria">Contacto</button></a>
-        </header>
-            <main>
-                <section class="grid-container">
-                    <div class="grilla__item item1"><img src="../imagenes/material de vidrio.png" alt=""></div>
-                    <div class="grilla__item item2"><img src="../imagenes/estufa.png" alt=""></div>
-                    <div class="grilla__item item3"><img src="../imagenes/microscopio.png" alt=""></div>
-                    <div class="grilla__item item4"><img src="../imagenes/reactivos.png" alt=""></div>
-                    <div class="grilla__item item5"><img src="../imagenes/cromatografia.png" alt=""></div>
-                    <div class="grilla__item item6"><img src="../imagenes/phmetro.png" alt=""></div>
-                    <div class="grilla__item item7"><img src="../imagenes/incubadora.png" alt=""></div>
-                    <div class="grilla__item item8"><img src="../imagenes/ultrasonico.png" alt=""></div>
-                    <div class="grilla__item item9"><img src="../imagenes/balanza.png" alt=""></div>
-                    <div class="grilla__item item10"><img src="../imagenes/centrifuga.png" alt=""></div>
-                    <div class="grilla__item item11"><img src="../imagenes/autoclave.png" alt=""></div>
-                    <div class="grilla__item item12"><img src="../imagenes/agitador.png" alt=""></div>
-                    <div class="grilla__item item13"><img src="../imagenes/bombadevacio.png" alt=""></div>
-                    <div class="grilla__item item14"><img src="../imagenes/espectrofotometro.png" alt=""></div>
-                    <div class="grilla__item item15"><img src="../imagenes/indumentaria.png" alt=""></div>
-                    <div class="grilla__item item16"><img src="../imagenes/horno.png" alt=""></div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">FULL SLAB</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      <a class="nav-link" href="#">Galeria</a>
+                      <a class="nav-link" href="../paginas/empresa.html">Empresa</a>
+                      <a class="nav-link" href="../paginas/novedades.html">Novedades</a>
+                    </div>
+                    <div>
+                      <a href="../paginas/contacto.html"><button type="button" class="btn bg-light"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Contacto</button></a>
+                  </div>
+                  </div>
                 </div>
-                </section>
+              </nav>
+        </header>
+            <main> 
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/agitador.png" class="d-block w-100" alt="agitador">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/balanza.png" class="d-block w-100" alt="balanza">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/microscopio.png" class="d-block w-100" alt="microscopio">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                  <section>
+                      <div>
+                        <form class="form-contacto1">
+                            <div class="form-container-contacto2">
+                                <h2>CONTACTO</h2>
+                                <input type="text" class="form-input" placeholder="Nombre:">
+                                <input type="email" class="form-input" placeholder="Email:">
+                                <input type="text" placeholder="Telefono">
+        
+                                <textarea class="form-input textarea" placeholder="Mensaje:"></textarea>
+        
+                                <input type="submit" value="Enviar" class="form-submit">
+                            </div>
+                        </form>
+                      </div>
+                  </section>
             </main>
         <footer>
             <div class="container-galeria">
@@ -54,5 +88,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -5,32 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FULL SLAB | Novedades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
 </head>
     <body>
         <header>
-            <a href="../index.html"><h2 class="logo-novedades">FULL SLAB</h2></a>
-            <nav>
-                <ul class="navegacion-novedades">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./empresa.html">Empresa</a></li>
-                    <li><a href="./Galeria.html">Galeria</a></li>
-                    <li><a href="#">Novedades</a></li>
-                </ul>
-            </nav>
-            <a href="./contacto.html"><button class="boton-novedades">Contacto</button></a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">FULL SLAB</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
+                      <a class="nav-link" href="../paginas/empresa.html">Empresa</a>
+                      <a class="nav-link" href="#">Novedades</a>
+                    </div>
+                    <div>
+                        <a href="../paginas/contacto.html"><button type="button" class="btn bg-light"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Contacto</button></a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
             <h1>Novedades</h1>
-            <div class="noticias-container">
-                <div class="noticias">
-                    <a href="./mantenimiento-micropipetas.html" target="_blank"><img src="../imagenes/calibracion2.png" alt="Mantenimiento de micropipetas"></a>
-                    <p>Mantenimiento y calibracion de tus micropipetas</p>
-                    <a href="./micoscropio-nikon.html" target="_blank"><img src="../imagenes/NIKON.png" alt="Nuevo microscopio NIKON"></a>
-                    <p>Nuevo modelo de microscopio Nikon Si</p>
+            <section class="novedades">
+                <div class="card" style="width: 18rem;">
+                    <a href="../paginas/nuevos-escaners.html" target="_blank"><img src="../imagenes/escaner.png" class="card-img-top" alt="escaners"></a>
+                <div class="card-body">
+                    <p class="card-text">Nueva familia de escaners de fluorescencia Odyssey marca LICOR</p>
                 </div>
-            </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="../paginas/micoscropio-nikon.html" target="_blank"><img src="../imagenes/nikon.png" class="card-img-top" alt="microscopio"></a>
+                <div class="card-body">
+                    <p class="card-text">Nuevo modelo de microscipio Nikon Ei</p>
+                </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="../paginas/nuevo-centrifugas.html"><img src="../imagenes/centrifuga.png" class="card-img-top" alt="Centrifuga"></a>
+                <div class="card-body">
+                    <p class="card-text">Nueva línea de centrífugas de mesa de gran capacidad Thermo Scientific Sorvall serie GP4</p>
+                </div>
+                </div>
+            </section>
         </main>
+        <section>
+            <form class="form-contacto">
+                <div class="form-container-contacto">
+                    <h2>CONTACTO</h2>
+                    <input type="text" class="form-input" placeholder="Nombre:">
+                    <input type="email" class="form-input" placeholder="Email:">
+                    <input type="text" placeholder="Telefono">
+
+                    <textarea class="form-input textarea" placeholder="Mensaje:"></textarea>
+
+                    <input type="submit" value="Enviar" class="form-submit">
+                </div>
+            </form>
+        </section>
         <footer>
             <div class="container-novedades">
                     <h2 class="h2-footer-novedades">FULL SLAB</h2>
@@ -44,5 +81,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
 </html>
