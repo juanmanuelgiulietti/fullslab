@@ -16,18 +16,18 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                      <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
-                      <a class="nav-link" href="./paginas/empresa.html">Empresa</a>
-                      <a class="nav-link" href="./paginas/novedades.html">Novedades</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+                        <a class="nav-link" href="./paginas/empresa.html">Empresa</a>
+                        <a class="nav-link" href="./paginas/novedades.html">Novedades</a>
                     </div>
-                    <div>
-                        <a href="./paginas/contacto.html"><button type="button" class="btn bg-light"
-                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Contacto</button></a>
-                    </div>
-                  </div>
+                        <div>
+                            <a href="./paginas/contacto.html"><button type="button" class="btn bg-light"
+                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Contacto</button></a>
+                        </div>
+                </div>
                 </div>
               </nav>
         </header>
@@ -53,7 +53,6 @@
                         <img src="./imagenes/slab.jpg" alt="portada de la empresa">
                     </div>
             </section>
-            <h1>MERGEAR TITULO</h1>
             <section>
                 <form class="form-contacto">
                     <div class="form-container-contacto">
@@ -61,9 +60,10 @@
                         <input type="text" class="form-input" placeholder="Nombre:">
                         <input type="email" class="form-input" placeholder="Email:">
                         <input type="text" placeholder="Telefono">
-
-                        <textarea class="form-input textarea" placeholder="Mensaje:"></textarea>
-
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Deje aqui un mensaje</label>
+                        </div>
                         <input type="submit" value="Enviar" class="form-submit">
                     </div>
                 </form>
