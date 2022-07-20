@@ -1,0 +1,93 @@
+/* CSS MAIN EMPRESA */
+
+.grilla-empresa{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 50px);
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.grilla__item2{
+    background-color: #082032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-empresa{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.grilla-empresa button{
+    color: #1b3039;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.mb-3{
+    color: #eceff1;
+}
+
+/* CSS FOOTER EMPRESA */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-empresa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-empresa{
+    color: white;
+}
+
+.footer-ul-container-empresa{
+    color: white;
+}
+
+.ul-footer-empresa{
+    list-style: none;
+}
+
+@media (max-width: 460px){
+    .container-empresa{
+        flex-direction: column;
+    }
+
+    .ul-footer-empresa{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-empresa{
+        flex-direction: column;
+    }
+
+    .ul-footer-empresa{
+        justify-content: center;
+        align-items: center;
+    }
+}

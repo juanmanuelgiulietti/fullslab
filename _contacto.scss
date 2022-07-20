@@ -1,0 +1,75 @@
+/* CSS MAIN CONTACTO */
+.h2-contacto{
+    text-align: center;
+    margin: 50px;
+    color:#eceff1;
+}
+
+.form-container-contacto{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border: solid 1px black;
+}
+
+.form-container-contacto h2{
+    color: #eceff1;
+    text-align: center;
+}
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* CSS FOOTER CONTACTO */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-contacto{
+    color: white;
+}
+
+.footer-ul-container-contacto{
+    color: white;
+}
+
+.ul-footer-contacto{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-contacto{
+        flex-direction: column;
+    }
+
+    .ul-footer-contacto{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-contacto{
+        flex-direction: column;
+    }
+
+    .ul-footer-contacto{
+        justify-content: center;
+        align-items: center;
+    }
+}

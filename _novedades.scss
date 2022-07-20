@@ -1,0 +1,74 @@
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-text{
+    color: #1b3039;
+}
+
+.novedades{
+    background-color: #082032;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* CSS FOOTER NOVEDADES */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-novedades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.h2-footer-novedades{
+    color: white;
+}
+
+.footer-ul-container-novedades{
+    color: white;
+}
+
+.ul-footer-novedades{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-novedades{
+        flex-direction: column;
+    }
+
+    .ul-footer-novedades{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .container-novedades{
+        flex-direction: column;
+    }
+
+    .ul-footer-novedades{
+        justify-content: center;
+        align-items: center;
+    }
+}

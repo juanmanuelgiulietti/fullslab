@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.lista {
+  font-size: 20px; }
+  .lista__principal {
+    color: white;
+    list-style: none; }
+
+/* CSS HEADER INDEX */
+.navbar-nav a {
+  color: #eceff1; }
+
+.navbar-nav .active {
+  color: #eceff1; }
+
+.navbar-brand {
+  color: #eceff1; }
+
+.btn {
+  cursor: pointer;
+  transition: all 0.3s; }
+
+.btn:hover {
+  transform: scale(1.2); }
+
+/* CSS MAIN INDEX */
+body {
+  min-height: 100vh;
+  background-color: #082032; }
+
+main {
+  height: 100%; }
+
+body {
+  font-size: 20px; }
+
+section {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px; }
+
+/* .__principal{
+    color: white;
+    list-style: none;
+} */
+.h2-contacto {
+  text-align: center;
+  margin: 50px;
+  color: #eceff1; }
+
+.form-container-contacto {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  border: solid 1px black; }
+
+.form-container-contacto h2 {
+  color: #eceff1;
+  text-align: center; }
+
+input, textarea {
+  width: 50%;
+  margin-bottom: 20px; }
+
+@media (max-width: 1220px) {
+  .principal {
+    flex-direction: column; }
+  .principal {
+    display: flex;
+    align-items: center; } }
+
+@media (max-width: 900px) {
+  .portada img {
+    height: 250px;
+    width: 500px;
+    align-items: center; } }
+
+@media (max-width: 480px) {
+  .principal {
+    flex-direction: column; }
+  .principal {
+    display: flex;
+    align-items: center; }
+  .portada img {
+    height: 150px;
+    width: 300px; } }
+
+/* CSS FOOTER INDEX */
+footer {
+  background-color: #1b3039;
+  font-size: 20px; }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.h2-footer {
+  color: white; }
+
+.footer-ul-container {
+  color: white; }
+
+.ul-footer {
+  list-style: none; }
+
+/* CSS MAIN CONTACTO */
+.h2-contacto {
+  text-align: center;
+  margin: 50px;
+  color: #eceff1; }
+
+.form-container-contacto {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  border: solid 1px black; }
+
+.form-container-contacto h2 {
+  color: #eceff1;
+  text-align: center; }
+
+input, textarea {
+  width: 50%;
+  margin-bottom: 20px; }
+
+/* CSS FOOTER CONTACTO */
+footer {
+  background-color: #1b3039;
+  font-size: 20px; }
+
+.container-contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.h2-footer-contacto {
+  color: white; }
+
+.footer-ul-container-contacto {
+  color: white; }
+
+.ul-footer-contacto {
+  list-style: none;
+  color: white; }
+
+@media (max-width: 460px) {
+  .container-contacto {
+    flex-direction: column; }
+  .ul-footer-contacto {
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 700px) {
+  .container-contacto {
+    flex-direction: column; }
+  .ul-footer-contacto {
+    justify-content: center;
+    align-items: center; } }
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px; }
+
+.card {
+  cursor: pointer;
+  transition: all 0.3s; }
+
+.card:hover {
+  transform: scale(1.1); }
+
+.card-text {
+  color: #1b3039; }
+
+.novedades {
+  background-color: #082032;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+/* CSS FOOTER NOVEDADES */
+footer {
+  background-color: #1b3039;
+  font-size: 20px; }
+
+.container-novedades {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 230px; }
+
+.h2-footer-novedades {
+  color: white; }
+
+.footer-ul-container-novedades {
+  color: white; }
+
+.ul-footer-novedades {
+  list-style: none;
+  color: white; }
+
+@media (max-width: 460px) {
+  .container-novedades {
+    flex-direction: column; }
+  .ul-footer-novedades {
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 700px) {
+  .container-novedades {
+    flex-direction: column; }
+  .ul-footer-novedades {
+    justify-content: center;
+    align-items: center; } }
+
+/* CSS MAIN EMPRESA */
+.grilla-empresa {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 50px);
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  height: 100vh; }
+
+.grilla__item2 {
+  background-color: #082032;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.texto-empresa {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px; }
+
+.grilla-empresa button {
+  color: #1b3039;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+
+.mb-3 {
+  color: #eceff1; }
+
+/* CSS FOOTER EMPRESA */
+footer {
+  background-color: #1b3039;
+  font-size: 20px; }
+
+.container-empresa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.h2-footer-empresa {
+  color: white; }
+
+.footer-ul-container-empresa {
+  color: white; }
+
+.ul-footer-empresa {
+  list-style: none; }
+
+@media (max-width: 460px) {
+  .container-empresa {
+    flex-direction: column; }
+  .ul-footer-empresa {
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 700px) {
+  .container-empresa {
+    flex-direction: column; }
+  .ul-footer-empresa {
+    justify-content: center;
+    align-items: center; } }
+
+/* CSS MAIN GALERIA */
+.carousel-item {
+  height: 300px;
+  width: 100%; }
+
+.carousel-item img {
+  height: 300px;
+  object-fit: contain; }
+
+.form-container-contacto2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 50px; }
+
+.form-container-contacto2 h2 {
+  color: #eceff1;
+  text-align: center; }
+
+input, textarea {
+  width: 50%;
+  margin-bottom: 20px; }
+
+/* CSS FOOTER GALERIA */
+footer {
+  background-color: #1b3039;
+  font-size: 20px; }
+
+.container-galeria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.h2-footer-galeria {
+  color: white; }
+
+.footer-ul-galeria {
+  color: white; }
+
+.ul-footer-galeria {
+  list-style: none;
+  color: white; }
+
+@media (max-width: 460px) {
+  .container-galeria {
+    flex-direction: column; }
+  .ul-footer-galeria {
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 1000px) {
+  .container-galeria {
+    flex-direction: column; }
+  .ul-footer-galeria {
+    justify-content: center;
+    align-items: center; } }

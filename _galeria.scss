@@ -1,0 +1,81 @@
+/* CSS MAIN GALERIA */
+
+.carousel-item{
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-item img{
+    height: 300px;
+    object-fit: contain;
+}
+
+.form-container-contacto2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.form-container-contacto2 h2{
+    color: #eceff1;
+    text-align: center;
+}
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* CSS FOOTER GALERIA */
+
+footer{
+    background-color: #1b3039;
+    font-size: 20px;
+}
+
+.container-galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-footer-galeria{
+    color: white;
+}
+
+.footer-ul-galeria{
+    color: white;
+}
+
+.ul-footer-galeria{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 460px){
+    .container-galeria{
+        flex-direction: column;
+    }
+
+    .ul-footer-galeria{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1000px){
+    .container-galeria{
+        flex-direction: column;
+    }
+
+    .ul-footer-galeria{
+        justify-content: center;
+        align-items: center;
+    }
+}
