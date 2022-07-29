@@ -1,3 +1,14 @@
+/* EXTENDS */
+.textos, .texto-empresa1, .texto-empresa2 {
+  text-align: center;
+  color: white; }
+
+.texto-empresa1 {
+  font-size: 16px; }
+
+.texto-empresa2 {
+  font-size: 25px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -241,28 +252,10 @@ footer {
   justify-content: center;
   align-items: center; }
 
-.texto-empresa {
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  padding: 20px; }
-
 .grilla-empresa button {
   color: #1b3039;
   padding: 15px;
-  font-size: 20px;
-  cursor: pointer; }
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto; }
-
-.mb-3 {
-  color: #eceff1; }
+  font-size: 20px; }
 
 /* CSS FOOTER EMPRESA */
 footer {
@@ -358,3 +351,13 @@ footer {
   .ul-footer-galeria {
     justify-content: center;
     align-items: center; } }
+
+.textos, .texto-empresa1, .texto-empresa2 {
+  text-align: center;
+  color: white; }
+
+.texto-empresa1 {
+  font-size: 18px; }
+
+.texto-empresa2 {
+  font-size: 25px; }

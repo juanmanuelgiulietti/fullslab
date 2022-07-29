@@ -1,0 +1,23 @@
+.textos{
+    text-align: center;
+    color: white;
+}
+
+.texto-empresa1{
+    @extend .textos;
+    font-size: 18px;
+}
+
+.texto-empresa2{
+    @extend .textos;
+    font-size: 25px;
+}
+
+/* MIXINS */
+
+@mixin novedades ($bgColor){
+    background-color: $bgColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
