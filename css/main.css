@@ -179,6 +179,17 @@ footer {
     justify-content: center;
     align-items: center; } }
 
+.textos, .texto-empresa1, .texto-empresa2 {
+  text-align: center;
+  color: white; }
+
+.texto-empresa1 {
+  font-size: 18px; }
+
+.texto-empresa2 {
+  font-size: 25px; }
+
+/* MIXINS */
 h1 {
   color: white;
   text-align: center;
@@ -195,10 +206,7 @@ h1 {
   color: #1b3039; }
 
 .novedades {
-  background-color: #082032;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  background-color: #082032; }
 
 /* CSS FOOTER NOVEDADES */
 footer {
@@ -242,12 +250,12 @@ footer {
   grid-template-columns: repeat(2, 200px);
   grid-template-rows: repeat(2, 50px);
   gap: 20px;
-  padding: 40px;
+   padding: 40px;
   justify-content: center;
   height: 100vh; }
 
 .grilla__item2 {
-  background-color: #082032;
+  background-color: 082032;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -361,3 +369,5 @@ footer {
 
 .texto-empresa2 {
   font-size: 25px; }
+
+/* MIXINS */
