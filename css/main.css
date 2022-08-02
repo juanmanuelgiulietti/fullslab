@@ -9,6 +9,7 @@
 .texto-empresa2 {
   font-size: 25px; }
 
+/* MAP */
 * {
   margin: 0;
   padding: 0; }
@@ -19,6 +20,18 @@
     color: white;
     list-style: none; }
 
+/* EXTENDS */
+.textos, .texto-empresa1, .texto-empresa2 {
+  text-align: center;
+  color: white; }
+
+.texto-empresa1 {
+  font-size: 16px; }
+
+.texto-empresa2 {
+  font-size: 25px; }
+
+/* MAP */
 /* CSS HEADER INDEX */
 .navbar-nav a {
   color: #eceff1; }
@@ -52,10 +65,6 @@ section {
   justify-content: space-around;
   padding: 100px 0px; }
 
-/* .__principal{
-    color: white;
-    list-style: none;
-} */
 .h2-contacto {
   text-align: center;
   margin: 50px;
@@ -206,7 +215,14 @@ h1 {
   color: #1b3039; }
 
 .novedades {
-  background-color: #082032; }
+  background-color: #082032;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #082032;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 /* CSS FOOTER NOVEDADES */
 footer {
@@ -250,7 +266,7 @@ footer {
   grid-template-columns: repeat(2, 200px);
   grid-template-rows: repeat(2, 50px);
   gap: 20px;
-   padding: 40px;
+  padding: 40px;
   justify-content: center;
   height: 100vh; }
 

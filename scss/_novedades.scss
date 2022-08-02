@@ -20,8 +20,12 @@ h1{
 }
 
 .novedades{
-    background-color: #082032;
-}
+    @include novedades (center, flex, space-around);
+        background-color: #082032;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 /* CSS FOOTER NOVEDADES */
 

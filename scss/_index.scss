@@ -1,4 +1,4 @@
-
+@import "./base/variables";
 
 /* CSS HEADER INDEX */
 
@@ -44,10 +44,9 @@ section{
     padding:100px 0px;
 }
 
-/* .__principal{
-    color: white;
-    list-style: none;
-} */
+.ul-lista-principal{
+    $map-get: ($text,"text-color");
+}
 
 .h2-contacto{
     text-align: center;

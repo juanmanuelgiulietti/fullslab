@@ -15,9 +15,9 @@
 
 /* MIXINS */
 
-@mixin novedades ($bgColor){
-    background-color: $bgColor;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+@mixin novedades ($items, $display, $justify){
+    background-color: #082032;
+    display: $display;
+    justify-content: $justify;
+    align-items: $items;
 }
